@@ -1,0 +1,8 @@
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\bin\Debug\netcoreapp2.2\Domain.DataAccess.deps.json
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\bin\Debug\netcoreapp2.2\Domain.DataAccess.dll
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\bin\Debug\netcoreapp2.2\Domain.DataAccess.pdb
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\obj\Debug\netcoreapp2.2\Domain.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\obj\Debug\netcoreapp2.2\Domain.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\obj\Debug\netcoreapp2.2\Domain.DataAccess.AssemblyInfo.cs
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\obj\Debug\netcoreapp2.2\Domain.DataAccess.dll
+C:\Users\Bayu\source\repos\BookService\Domain.DataAccess\obj\Debug\netcoreapp2.2\Domain.DataAccess.pdb

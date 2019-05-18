@@ -1,0 +1,22 @@
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Domain.Logging.dll
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Domain.Logging.pdb
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Dapper.Contrib.dll
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Dapper.dll
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Domain.DataAccess.pdb
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Dapper.Contrib.xml
+D:\Working Code\BackEndSample\Domain.Logging\bin\Debug\Dapper.xml
+D:\Working Code\BackEndSample\Domain.Logging\obj\Debug\Domain.Logging.csprojResolveAssemblyReference.cache
+D:\Working Code\BackEndSample\Domain.Logging\obj\Debug\Domain.Logging.dll
+D:\Working Code\BackEndSample\Domain.Logging\obj\Debug\Domain.Logging.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Domain.Logging.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Domain.Logging.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\bin\Debug\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\obj\Debug\Domain.Logging.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\obj\Debug\Domain.Logging.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\obj\Debug\Domain.Logging.pdb

@@ -1,0 +1,36 @@
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Domain.Business.dll.config
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Domain.Business.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Domain.Business.pdb
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\EntityFramework.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Ninject.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Dapper.Contrib.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Dapper.dll
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Domain.DataAccess.pdb
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\EntityFramework.xml
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Ninject.xml
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Dapper.Contrib.xml
+D:\Working Code\BackEndSample\Domain.Business\bin\Debug\Dapper.xml
+D:\Working Code\BackEndSample\Domain.Business\obj\Debug\Domain.Business.csprojResolveAssemblyReference.cache
+D:\Working Code\BackEndSample\Domain.Business\obj\Debug\Domain.Business.dll
+D:\Working Code\BackEndSample\Domain.Business\obj\Debug\Domain.Business.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Domain.Business.dll.config
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Domain.Business.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Domain.Business.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\EntityFramework.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Ninject.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\EntityFramework.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Ninject.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\bin\Debug\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\obj\Debug\Domain.Business.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\obj\Debug\Domain.Business.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Business\obj\Debug\Domain.Business.pdb

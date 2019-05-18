@@ -1,0 +1,156 @@
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Domain.Presentation.dll.config
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Domain.Presentation.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Domain.Presentation.pdb
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Antlr3.Runtime.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\ClearScript.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\EntityFramework.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\EntityFramework.SqlServer.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Core.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Msie.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.V8.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Vroom.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JSPool.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\MsieJavaScriptEngine.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Newtonsoft.Json.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Owin.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Helpers.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Mvc.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Optimization.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Razor.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Deployment.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Razor.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\VroomJs.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\WebActivatorEx.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\WebGrease.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Core.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Msie.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.V8.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Vroom.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\JSPool.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\MsieJavaScriptEngine.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Newtonsoft.Json.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Helpers.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Mvc.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Optimization.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.Razor.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Deployment.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Razor.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\VroomJs.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Antlr3.Runtime.pdb
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\EntityFramework.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\EntityFramework.SqlServer.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.Vroom.resources.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\obj\Release\Domain.Presentation.dll
+D:\Working Code\FrontEndSample\Domain.Presentation\obj\Release\Domain.Presentation.pdb
+D:\Working Code\FrontEndSample\Domain.Presentation\obj\Release\Domain.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Domain.Presentation.dll.config
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Domain.Presentation.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Domain.Presentation.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\ClearScript.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\EntityFramework.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Core.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Msie.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.V8.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Vroom.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JSPool.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\MsieJavaScriptEngine.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Owin.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Razor.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\VroomJs.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\WebActivatorEx.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\WebGrease.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Core.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Msie.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.V8.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JavaScriptEngineSwitcher.Vroom.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\JSPool.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\MsieJavaScriptEngine.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.Razor.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\VroomJs.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\EntityFramework.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.Vroom.resources.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\obj\Release\Domain.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\obj\Release\Domain.Presentation.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\FrontEndSample\Domain.Presentation\obj\Release\Domain.Presentation.pdb

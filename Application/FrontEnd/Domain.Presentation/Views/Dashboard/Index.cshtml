@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="block-header">
+    <h2>Ini sample Dashboardnya... Hiya Hiyaaaa</h2>
+</div>
+
+<!-- Counter Examples -->
+<div class="row clearfix">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <div class="icon bg-red">
+                <i class="material-icons">build</i>
+            </div>
+            <div class="content">
+                <div class="text">POST REQUEST</div>
+                <div class="number count-to" id="postRequest"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <div class="icon bg-indigo">
+                <i class="material-icons">cached</i>
+            </div>
+            <div class="content">
+                <div class="text">GET REQUEST</div>
+                <div class="number count-to" id="getRequest"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <div class="icon bg-purple">
+                <i class="material-icons">settings</i>
+            </div>
+            <div class="content">
+                <div class="text">PUT REQUEST</div>
+                <div class="number count-to" id="putRequest"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <div class="icon bg-deep-purple">
+                <i class="material-icons">delete</i>
+            </div>
+            <div class="content">
+                <div class="text">DELETE REQUEST</div>
+                <div class="number count-to" id="deleteRequest"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #END# Counter Examples -->
+
+<div class="row clearfix">
+    <!-- Line Chart -->
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>APPLICATION LOG in @DateTime.Now.Month - @DateTime.Now.Year</h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);">Action</a></li>
+                            <li><a href="javascript:void(0);">Another action</a></li>
+                            <li><a href="javascript:void(0);">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                <canvas id="line_chart" height="150"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>APPLICATION LOG V2 in @DateTime.Now.Month - @DateTime.Now.Year</h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);">Action</a></li>
+                            <li><a href="javascript:void(0);">Another action</a></li>
+                            <li><a href="javascript:void(0);">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                <canvas id="radar_chart" height="150"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.RenderFormat(Helper.GetDefaultJsStringFormat(), "~/Scripts/Dashboard/index.js")
+}

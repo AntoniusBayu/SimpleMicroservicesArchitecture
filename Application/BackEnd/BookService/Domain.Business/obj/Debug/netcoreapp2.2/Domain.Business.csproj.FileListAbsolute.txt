@@ -1,0 +1,12 @@
+C:\Users\Bayu\source\repos\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.Business.deps.json
+C:\Users\Bayu\source\repos\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.Business.dll
+C:\Users\Bayu\source\repos\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.Business.pdb
+C:\Users\Bayu\source\repos\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.DataAccess.dll
+C:\Users\Bayu\source\repos\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.DataAccess.pdb
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csprojAssemblyReference.cache
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csproj.CoreCompileInputs.cache
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.AssemblyInfoInputs.cache
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.AssemblyInfo.cs
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csproj.CopyComplete
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.dll
+C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.pdb

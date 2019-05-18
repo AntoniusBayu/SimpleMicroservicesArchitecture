@@ -1,0 +1,150 @@
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Service.dll.config
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Service.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Service.pdb
+D:\Working Code\BackEndSample\Domain.Service\bin\Antlr3.Runtime.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\DependencyResolver.AppDomainHelper.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\DependencyResolver.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Business.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Logging.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\EntityFramework.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\EntityFramework.SqlServer.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Newtonsoft.Json.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.Web.Common.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.Web.Common.WebHost.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.Web.Mvc.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.WebApi.DependencyResolver.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\NLog.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Swashbuckle.Core.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Net.Http.Formatting.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.Core.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.Interfaces.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.Linq.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.PlatformServices.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Cors.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Helpers.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Http.Cors.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Http.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Http.WebHost.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Mvc.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Optimization.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Razor.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.WebPages.Deployment.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.WebPages.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.WebPages.Razor.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\WebActivatorEx.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\WebApi.OutputCache.Core.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\WebApi.OutputCache.V2.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\WebGrease.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Dapper.Contrib.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Dapper.dll
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Business.pdb
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.DataAccess.pdb
+D:\Working Code\BackEndSample\Domain.Service\bin\Domain.Logging.pdb
+D:\Working Code\BackEndSample\Domain.Service\bin\EntityFramework.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\EntityFramework.SqlServer.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Newtonsoft.Json.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.Web.Common.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.Web.Common.WebHost.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Ninject.Web.Mvc.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\NLog.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Net.Http.Formatting.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.Core.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.Interfaces.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.Linq.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Reactive.PlatformServices.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Helpers.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Http.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Http.Cors.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Mvc.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Razor.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.WebPages.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.WebPages.Deployment.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.WebPages.Razor.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Http.WebHost.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\System.Web.Optimization.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\WebApi.OutputCache.V2.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Antlr3.Runtime.pdb
+D:\Working Code\BackEndSample\Domain.Service\bin\Dapper.Contrib.xml
+D:\Working Code\BackEndSample\Domain.Service\bin\Dapper.xml
+D:\Working Code\BackEndSample\Domain.Service\obj\Release\Domain.Service.csprojResolveAssemblyReference.cache
+D:\Working Code\BackEndSample\Domain.Service\obj\Release\Domain.Service.dll
+D:\Working Code\BackEndSample\Domain.Service\obj\Release\Domain.Service.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Service.dll.config
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Service.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Service.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Antlr3.Runtime.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\DependencyResolver.AppDomainHelper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\DependencyResolver.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Business.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Logging.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\EntityFramework.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Newtonsoft.Json.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.Web.Common.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.Web.Mvc.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.WebApi.DependencyResolver.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\NLog.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Swashbuckle.Core.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Net.Http.Formatting.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.Core.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.Interfaces.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.Linq.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.PlatformServices.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Cors.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Helpers.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Http.Cors.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Http.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Http.WebHost.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Mvc.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Optimization.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Razor.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.WebPages.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\WebActivatorEx.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\WebApi.OutputCache.Core.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\WebApi.OutputCache.V2.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\WebGrease.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Business.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Domain.Logging.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\EntityFramework.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Newtonsoft.Json.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.Web.Common.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Ninject.Web.Mvc.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\NLog.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Net.Http.Formatting.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.Core.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.Interfaces.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.Linq.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Reactive.PlatformServices.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Helpers.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Http.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Http.Cors.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Mvc.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Razor.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.WebPages.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Http.WebHost.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\System.Web.Optimization.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\WebApi.OutputCache.V2.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Antlr3.Runtime.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\bin\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\obj\Release\Domain.Service.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\obj\Release\Domain.Service.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Service\obj\Release\Domain.Service.pdb

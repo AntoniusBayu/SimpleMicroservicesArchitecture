@@ -1,0 +1,28 @@
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Domain.DataAccess.dll.config
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Domain.DataAccess.pdb
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.Contrib.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Iesi.Collections.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\NHibernate.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.Contrib.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\Iesi.Collections.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Debug\NHibernate.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\obj\Debug\Domain.DataAccess.csprojResolveAssemblyReference.cache
+D:\Working Code\BackEndSample\Domain.DataAccess\obj\Debug\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\obj\Debug\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Domain.DataAccess.dll.config
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\NHibernate.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Debug\NHibernate.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\obj\Debug\Domain.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\obj\Debug\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\obj\Debug\Domain.DataAccess.pdb

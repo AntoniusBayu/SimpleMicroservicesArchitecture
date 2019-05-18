@@ -1,0 +1,27 @@
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Domain.DataAccess.dll.config
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Domain.DataAccess.pdb
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Dapper.Contrib.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Dapper.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Iesi.Collections.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\NHibernate.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Dapper.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Dapper.Contrib.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\Iesi.Collections.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\bin\Release\NHibernate.xml
+D:\Working Code\BackEndSample\Domain.DataAccess\obj\Release\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.DataAccess\obj\Release\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Domain.DataAccess.dll.config
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Iesi.Collections.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\NHibernate.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\Iesi.Collections.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\bin\Release\NHibernate.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\obj\Release\Domain.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\obj\Release\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.DataAccess\obj\Release\Domain.DataAccess.pdb

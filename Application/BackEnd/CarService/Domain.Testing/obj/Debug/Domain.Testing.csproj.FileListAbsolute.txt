@@ -1,0 +1,34 @@
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Domain.Testing.dll
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Domain.Testing.pdb
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Domain.Business.dll
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Domain.DataAccess.dll
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\nunit.framework.dll
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Dapper.Contrib.dll
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Dapper.dll
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Domain.Business.pdb
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Domain.DataAccess.pdb
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\nunit.framework.pdb
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\nunit.framework.xml
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Dapper.Contrib.xml
+D:\Working Code\BackEndSample\Domain.Testing\bin\Debug\Dapper.xml
+D:\Working Code\BackEndSample\Domain.Testing\obj\Debug\Domain.Testing.csprojResolveAssemblyReference.cache
+D:\Working Code\BackEndSample\Domain.Testing\obj\Debug\Domain.Testing.dll
+D:\Working Code\BackEndSample\Domain.Testing\obj\Debug\Domain.Testing.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Domain.Testing.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Domain.Testing.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Domain.Business.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\nunit.framework.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Domain.Business.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\nunit.framework.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\nunit.framework.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\bin\Debug\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\obj\Debug\Domain.Testing.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\obj\Debug\Domain.Testing.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Testing\obj\Debug\Domain.Testing.pdb
