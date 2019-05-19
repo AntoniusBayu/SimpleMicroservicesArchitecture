@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.2": {
       "Domain.Business/1.0.0": {
         "dependencies": {
-          "Domain.DataAccess": "1.0.0"
+          "Domain.DataAccess": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0.0"
         },
         "runtime": {
           "Domain.Business.dll": {}
@@ -353,6 +354,14 @@
         "runtime": {
           "Domain.DataAccess.dll": {}
         }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
       }
     }
   },
@@ -609,6 +618,11 @@
     },
     "Domain.DataAccess/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
