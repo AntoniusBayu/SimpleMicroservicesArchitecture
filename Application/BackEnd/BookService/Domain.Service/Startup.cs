@@ -21,6 +21,12 @@ namespace Domain.Service
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSingleton<IMstBookDomain, mstBookDomain>();
+            services.AddCors(p => p.AddPolicy("CustomPolicy", x =>
+            {
+                x.AllowAnyOrigin()
+                 .AllowAnyMethod()
+                 .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,10 +42,7 @@ namespace Domain.Service
                 app.UseHsts();
             }
 
-            app.UseCors(x => x
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader());
+            app.UseCors("CustomPolicy");
 
             app.UseHttpsRedirection();
             app.UseMvc();

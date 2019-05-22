@@ -1,0 +1,9 @@
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\bin\Release\netcoreapp2.2\Domain.DataAccess.deps.json
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\bin\Release\netcoreapp2.2\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\bin\Release\netcoreapp2.2\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\obj\Release\netcoreapp2.2\Domain.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\obj\Release\netcoreapp2.2\Domain.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\obj\Release\netcoreapp2.2\Domain.DataAccess.AssemblyInfo.cs
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\obj\Release\netcoreapp2.2\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\obj\Release\netcoreapp2.2\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.DataAccess\obj\Release\netcoreapp2.2\Domain.DataAccess.csprojAssemblyReference.cache

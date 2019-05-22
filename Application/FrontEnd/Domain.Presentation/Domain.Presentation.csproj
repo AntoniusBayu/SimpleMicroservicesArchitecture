@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -277,6 +278,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Common\common.js" />
     <Content Include="Scripts\Dashboard\index.js" />
+    <Content Include="Scripts\Home\masterbook.js" />
     <Content Include="Scripts\Home\mastercar2.js" />
     <Content Include="Scripts\Home\mastercar.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -325,6 +327,7 @@
     <Content Include="Views\Home\MasterCar2.cshtml" />
     <Content Include="Scripts\Vue\vuejs-datepicker.min.js" />
     <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Home\MasterBook.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Configuration\" />

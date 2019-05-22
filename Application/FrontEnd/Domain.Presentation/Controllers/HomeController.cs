@@ -36,5 +36,10 @@ namespace Domain.Presentation.Controllers
         {
             return View();
         }
+
+        public ActionResult MasterBook()
+        {
+            return View();
+        }
     }
 }
