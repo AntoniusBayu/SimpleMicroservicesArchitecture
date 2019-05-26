@@ -11,7 +11,7 @@ namespace Domain.Service.Controllers
         protected const string DeleteSuccessful = "Data has been deleted successfully";
 
         protected const string GlobalErrorMessage = "Ooops Something went wrong!";
-        protected string tokenValue { get { return string.IsNullOrEmpty(Request.Headers["Token"]) ? Request.Headers["Token"].ToString() : string.Empty; } }
+        protected string tokenValue { get { return string.IsNullOrEmpty(Request.Headers["token"]) ? Request.Headers["token"].ToString() : string.Empty; } }
 
         protected enum ApiResullt
         {

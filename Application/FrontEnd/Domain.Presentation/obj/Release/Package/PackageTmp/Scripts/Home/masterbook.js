@@ -14,6 +14,56 @@ var Form = {
             format: "yyyy-mm-dd"
         });
 
+        //--------------------------------- READ ---------------------------------
+
+        $('#tblMstBook').dataTable({
+            "filter": false,
+            "destroy": true,
+            "data": []
+        });
+
+        $(window).resize(function () {
+            $("#tblMstBook").DataTable().columns.adjust().draw();
+        });
+
+        Action.Read();
+
+        $("#tblMstBook tbody").on("click", "button.btDelete", function (e) {
+            var table = $("#tblMstBook").DataTable();
+            var data = table.row($(this).parents("tr")).data();
+            if (data != null) {
+                Data.Selected = data;
+
+                swal({
+                    title: "Yakin lu mau delete? Yakin bener gak?",
+                    text: "",
+                    type: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#DD6B55",
+                    confirmButtonText: "Yes",
+                    cancelButtonText: "No",
+                    closeOnConfirm: false,
+                    closeOnCancel: true
+                }, function (isConfirm) {
+                    if (isConfirm) {
+                        Action.Delete(Data.Selected.serialNo);
+                        e.preventDefault();
+                    }
+                });
+            }
+        });
+
+        $("#tblMstBook tbody").on("click", "button.btEdit", function (e) {
+            var table = $("#tblMstBook").DataTable();
+            var data = table.row($(this).parents("tr")).data();
+            if (data != null) {
+                Data.Selected = data;
+                Form.FillTextBoxforEdit();
+            }
+        });
+
+        //--------------------------------- READ ---------------------------------
+
         //--------------------------------- CREATE ---------------------------------
 
         $("#formAnjay").submit(function (event) {
@@ -41,6 +91,21 @@ var Form = {
         });
 
         //--------------------------------- CREATE ---------------------------------
+
+        //--------------------------------- UPDATE ---------------------------------
+
+        $("#formUpdate").submit(function (event) {
+            if ($("#formUpdate").valid()) {
+                Action.Update();
+            }
+            event.preventDefault();
+        });
+
+        //--------------------------------- UPDATE ---------------------------------
+    },
+    FillTextBoxforEdit: function () {
+        $("#txtEditSerialNo").val(Data.Selected.serialNo);
+        $("#txtEditDescription").val(Data.Selected.description);
     }
 }
 
@@ -54,7 +119,7 @@ var Action = {
         }
 
         $.ajax({
-            url: "http://localhost:8095/api/transaction/postBook",
+            url: webApi.url + "api/book/postBook",
             type: "POST",
             dataType: "json",
             contentType: "application/json",
@@ -62,6 +127,93 @@ var Action = {
         }).done(function (data, textStatus, jqXHR) {
             if (jqXHR.status == 200) {
                 Common.Alert.Success(data.dataObject);
+                Action.Read();
+            }
+            else {
+                Common.Alert.Warning(data.dataObject);
+            }
+        })
+        .fail(function (jqXHR, textStatus, errorThrown) {
+            if (jqXHR.status == 0) {
+                Common.Alert.Error("Unknown Error Occured. Failed to connect server")
+            } else {
+                Common.Alert.Error(jqXHR.responseText)
+            }
+        })
+    },
+    Read: function () {
+        $("#tblMstBook").DataTable({
+            "language": {
+                "emptyTable": "No data available in table"
+            },
+            "ajax": {
+                "url": webApi.url + "api/book/getBook?description=a",
+                "dataSrc": "dataObject"
+            },
+            "filter": false,
+            "destroy": true,
+            "columns": [
+                {
+                    mRender: function (data, type, full) {
+                        var strReturn = "";
+                        strReturn += "<button type='button' title='Edit' class='mb-sm btn btn-primary btEdit'>EDIT</button>";
+                        strReturn += "&nbsp;<button type='button' title='Delete' class='mb-sm btn btn-danger btDelete'>DELETE</button>";
+                        return strReturn;
+                    }
+                },
+                { data: "serialNo" },
+                { data: "description" },
+                { data: "publisher" },
+                { data: "createdDate" }
+            ],
+            "columnDefs": [
+                { "targets": [0], "width": "20%" },
+                { "targets": [1], "width": "10%" },
+                { "targets": [2], "width": "25%" },
+                { "targets": [3], "width": "15%" },
+                { "targets": [4], "width": "30%" }
+            ]
+        });
+    },
+    Update: function () {
+        var params = {
+            SerialNo: $("#txtEditSerialNo").val(),
+            Description: $("#txtEditDescription").val()
+        }
+
+        $.ajax({
+            url: webApi.url + "api/book/putBook/",
+            type: "PUT",
+            dataType: "json",
+            contentType: "application/json",
+            data: JSON.stringify(params),
+        }).done(function (data, textStatus, jqXHR) {
+            if (jqXHR.status == 200) {
+                Common.Alert.Success(data.dataObject);
+                Action.Read();
+            }
+            else {
+                Common.Alert.Warning(data.dataObject);
+            }
+        })
+        .fail(function (jqXHR, textStatus, errorThrown) {
+            if (jqXHR.status == 0) {
+                Common.Alert.Error("Unknown Error Occured. Failed to connect server")
+            } else {
+                Common.Alert.Error(jqXHR.responseText)
+            }
+        })
+    },
+    Delete: function (serialNo) {
+        $.ajax({
+            url: webApi.url + "api/book/deleteBook/" + serialNo,
+            type: "DELETE",
+            dataType: "json",
+            contentType: "application/json"
+        }).done(function (data, textStatus, jqXHR) {
+            if (jqXHR.status == 200) {
+                Common.Alert.Success(data.dataObject);
+                Action.Read();
             }
             else {
                 Common.Alert.Warning(data.dataObject);

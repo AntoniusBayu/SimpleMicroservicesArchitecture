@@ -1,0 +1,13 @@
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Release\netcoreapp2.2\OcelotApiGateway.deps.json
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Release\netcoreapp2.2\OcelotApiGateway.runtimeconfig.json
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Release\netcoreapp2.2\OcelotApiGateway.runtimeconfig.dev.json
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Release\netcoreapp2.2\OcelotApiGateway.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Release\netcoreapp2.2\OcelotApiGateway.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.csproj.CoreCompileInputs.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.RazorAssemblyInfo.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.RazorAssemblyInfo.cs
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.AssemblyInfoInputs.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.AssemblyInfo.cs
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.RazorTargetAssemblyInfo.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Release\netcoreapp2.2\OcelotApiGateway.pdb

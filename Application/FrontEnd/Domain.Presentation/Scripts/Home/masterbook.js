@@ -119,7 +119,7 @@ var Action = {
         }
 
         $.ajax({
-            url: "http://localhost:3731/api/book/postBook",
+            url: webApi.url + "api/book/postBook",
             type: "POST",
             dataType: "json",
             contentType: "application/json",
@@ -147,7 +147,7 @@ var Action = {
                 "emptyTable": "No data available in table"
             },
             "ajax": {
-                "url": "http://localhost:3731/api/book/getBook?description=a",
+                "url": webApi.url + "api/book/getBook?description=a",
                 "dataSrc": "dataObject"
             },
             "filter": false,
@@ -182,7 +182,7 @@ var Action = {
         }
 
         $.ajax({
-            url: "http://localhost:3731/api/book/putBook/",
+            url: webApi.url + "api/book/putBook/",
             type: "PUT",
             dataType: "json",
             contentType: "application/json",
@@ -206,7 +206,7 @@ var Action = {
     },
     Delete: function (serialNo) {
         $.ajax({
-            url: "http://localhost:3731/api/book/deleteBook/" + serialNo,
+            url: webApi.url + "api/book/deleteBook/" + serialNo,
             type: "DELETE",
             dataType: "json",
             contentType: "application/json"
