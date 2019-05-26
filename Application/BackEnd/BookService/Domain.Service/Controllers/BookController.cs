@@ -16,6 +16,7 @@ namespace Domain.Service.Controllers
         public BookController(IServiceProvider serviceProvider)
         {
             this._mstDomain = serviceProvider.GetRequiredService<IMstBookDomain>();
+            base._log = serviceProvider.GetRequiredService<IMstLogDomain>();
         }
 
         [HttpPost, Route("postBook")]
@@ -27,8 +28,9 @@ namespace Domain.Service.Controllers
 
                 return ApiResponse(ApiResullt.Ok, SaveSuccessful);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _log.Error(ex, tokenValue);
                 return ApiResponse(ApiResullt.Failed);
             }
         }
@@ -46,8 +48,9 @@ namespace Domain.Service.Controllers
 
                 return ApiResponse(ApiResullt.Ok, listResult);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _log.Error(ex, tokenValue);
                 return ApiResponse(ApiResullt.Failed);
             }
         }
@@ -61,8 +64,9 @@ namespace Domain.Service.Controllers
 
                 return ApiResponse(ApiResullt.Ok, UpdateSuccessful);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _log.Error(ex, tokenValue);
                 return ApiResponse(ApiResullt.Failed);
             }
         }
@@ -76,8 +80,9 @@ namespace Domain.Service.Controllers
 
                 return ApiResponse(ApiResullt.Ok, DeleteSuccessful);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _log.Error(ex, tokenValue);
                 return ApiResponse(ApiResullt.Failed);
             }
         }

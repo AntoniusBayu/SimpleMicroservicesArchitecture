@@ -21,6 +21,8 @@ namespace Domain.Service
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSingleton<IMstBookDomain, mstBookDomain>();
+            services.AddSingleton<IMstLogDomain, mstLogDomain>();
+            services.AddMvc (x=> x.Filters.Add<BookFilter>());
             services.AddCors(p => p.AddPolicy("CustomPolicy", x =>
             {
                 x.AllowAnyOrigin()

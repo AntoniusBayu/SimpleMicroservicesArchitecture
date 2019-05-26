@@ -20,7 +20,7 @@
     "Domain.Service": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/transaction",
+      "launchUrl": "api/book",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
