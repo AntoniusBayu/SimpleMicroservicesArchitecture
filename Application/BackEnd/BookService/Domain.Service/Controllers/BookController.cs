@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Domain.Service.Controllers
 {
-    [Route("api/transaction")]
+    [Route("api/book")]
     [ApiController]
     public class BookController : BaseController
     {
@@ -67,7 +67,7 @@ namespace Domain.Service.Controllers
             }
         }
 
-        [HttpDelete, Route("deleteBook")]
+        [HttpDelete, Route("deleteBook/{serialNo}")]
         public IActionResult deleteBook(string serialNo)
         {
             try

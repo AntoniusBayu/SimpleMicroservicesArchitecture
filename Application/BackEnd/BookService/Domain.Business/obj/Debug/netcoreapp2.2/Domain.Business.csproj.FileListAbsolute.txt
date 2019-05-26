@@ -10,17 +10,3 @@ C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\D
 C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csproj.CopyComplete
 C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.dll
 C:\Users\Bayu\source\repos\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.pdb
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.Business.deps.json
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.Business.dll
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.Business.pdb
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.DataAccess.dll
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Domain.DataAccess.pdb
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.xml
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csprojAssemblyReference.cache
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csproj.CoreCompileInputs.cache
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.AssemblyInfoInputs.cache
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.AssemblyInfo.cs
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.csproj.CopyComplete
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.dll
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\BookService\Domain.Business\obj\Debug\netcoreapp2.2\Domain.Business.pdb

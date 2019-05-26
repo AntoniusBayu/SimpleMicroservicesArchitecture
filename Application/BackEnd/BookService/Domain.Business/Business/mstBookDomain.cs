@@ -85,6 +85,7 @@ namespace Domain.Business
         public void UpdateData(mstBook data)
         {
             var uow = new DapperUnitofWork();
+            mstBook currData = new mstBook();
 
             try
             {
@@ -92,7 +93,20 @@ namespace Domain.Business
                 uow.BeginTransaction();
 
                 var repo = new mstBookRepository(uow);
-                repo.Update(data);
+
+                currData = repo.ReadByFilter(x => x.SerialNo == data.SerialNo).FirstOrDefault();
+
+                if (!string.IsNullOrEmpty(data.Description))
+                {
+                    currData.Description = data.Description;
+                }
+
+                if (!string.IsNullOrEmpty(data.Publisher))
+                {
+                    currData.Publisher = data.Publisher;
+                }
+
+                repo.Update(currData);
 
                 uow.CommitTransaction();
             }
