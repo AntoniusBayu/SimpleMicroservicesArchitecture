@@ -1,7 +1,7 @@
 {
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/book/{catchAll}",
+      "DownstreamPathTemplate": "/api/book{catchAll}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,11 +9,11 @@
           "Port": 8095
         }
       ],
-      "UpstreamPathTemplate": "/api/book/{catchAll}",
+      "UpstreamPathTemplate": "/api/book{catchAll}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
     },
     {
-      "DownstreamPathTemplate": "/api/transaction/{catchAll}",
+      "DownstreamPathTemplate": "/api/transaction{catchAll}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -21,7 +21,7 @@
           "Port": 8085
         }
       ],
-      "UpstreamPathTemplate": "/api/transaction/{catchAll}",
+      "UpstreamPathTemplate": "/api/transaction{catchAll}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
     }
   ],
