@@ -1,16 +1,10 @@
 ﻿using Domain.DataAccess;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using NLog;
-using System.Reflection;
-using Ninject;
 using Domain.Business;
 using WebApi.OutputCache.V2;
-using Domain.Logging;
 
 namespace Domain.Service
 {
@@ -49,7 +43,7 @@ namespace Domain.Service
         /// Get All Data
         /// </summary>
         /// <returns></returns>
-        [HttpGet, Route("")]
+        [HttpGet, Route("getAll")]
         [CacheOutput(ClientTimeSpan = 30, ServerTimeSpan = 30, ExcludeQueryStringFromCacheKey = true)]
         public HttpResponseMessage Get()
         {

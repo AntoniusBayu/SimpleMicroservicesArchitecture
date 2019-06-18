@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Dapper;
 using Dapper.Contrib.Extensions;
 using System.Data;
-using System.Data.SqlClient;
 
 namespace Domain.DataAccess
 {

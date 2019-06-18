@@ -277,7 +277,7 @@ var Action = {
                 "emptyTable": "No data available in table"
             },
             "ajax": {
-                "url": webApi.url + "api/transaction",
+                "url": webApi.url + "api/transaction/getAll",
                 "dataSrc": "dataObject"
             },
             "filter": false,

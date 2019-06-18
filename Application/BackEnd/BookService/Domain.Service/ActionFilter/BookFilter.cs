@@ -24,9 +24,9 @@ namespace Domain.Service
 
             var controllerName = controllerActionDescriptor.ControllerName;
             var actionName = controllerActionDescriptor.ActionName;
-            var requestMethod = controllerActionDescriptor.MethodInfo.Name;
+            var requestMethod = context.HttpContext.Request.Method;
             var ipAddress = context.HttpContext.Connection.RemoteIpAddress;
-            var tokenValue = string.IsNullOrEmpty(context.HttpContext.Request.Headers["token"]) ? context.HttpContext.Request.Headers["token"].ToString() : string.Empty;
+            var tokenValue = (context.HttpContext.Request.Headers.TryGetValue("token", out var authorizationToken)) ? authorizationToken.ToString() : string.Empty;
 
             _mstLog.RequestID = Guid.NewGuid();
             _mstLog.ControllerName = controllerName;

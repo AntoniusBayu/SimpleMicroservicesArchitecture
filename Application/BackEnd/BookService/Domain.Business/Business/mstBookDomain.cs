@@ -90,10 +90,8 @@ namespace Domain.Business
             try
             {
                 uow.OpenSQLConnection(dbConn);
-                uow.BeginTransaction();
 
                 var repo = new mstBookRepository(uow);
-
                 currData = repo.ReadByFilter(x => x.SerialNo == data.SerialNo).FirstOrDefault();
 
                 if (!string.IsNullOrEmpty(data.Description))
@@ -105,6 +103,8 @@ namespace Domain.Business
                 {
                     currData.Publisher = data.Publisher;
                 }
+
+                uow.BeginTransaction();
 
                 repo.Update(currData);
 

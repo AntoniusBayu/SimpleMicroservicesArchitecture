@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:35:02</publishTime>
     </File>
     <File Include="bin/Domain.Presentation.dll">
-      <publishTime>05/26/2019 18:57:40</publishTime>
+      <publishTime>06/18/2019 20:13:29</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>05/26/2019 16:35:02</publishTime>
@@ -340,7 +340,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 19:26:05</publishTime>
     </File>
     <File Include="Scripts/Home/mastercar.js">
-      <publishTime>05/26/2019 16:35:00</publishTime>
+      <publishTime>06/18/2019 20:09:06</publishTime>
     </File>
     <File Include="Scripts/Home/mastercar2.js">
       <publishTime>05/26/2019 16:35:00</publishTime>

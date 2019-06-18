@@ -20,3 +20,14 @@ C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\obj\Release\Domain.Logging.csprojResolveAssemblyReference.cache
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\obj\Release\Domain.Logging.dll
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\BackEndSample\Domain.Logging\obj\Release\Domain.Logging.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Domain.Logging.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Domain.Logging.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Dapper.Contrib.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Dapper.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Dapper.Contrib.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\bin\Release\Dapper.xml
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\obj\Release\Domain.Logging.csprojResolveAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\obj\Release\Domain.Logging.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\CarService\Domain.Logging\obj\Release\Domain.Logging.pdb
