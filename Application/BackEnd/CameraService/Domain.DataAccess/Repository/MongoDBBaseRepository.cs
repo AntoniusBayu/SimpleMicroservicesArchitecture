@@ -18,49 +18,68 @@ namespace Domain.DataAccess
             _uow = (MongoDBUnitofWork)uow;
             _collection = _uow._database.GetCollection<T>(typeof(T).Name.ToLower());
         }
-        public void Add(T data)
+        public virtual void Add(T data)
         {
             _collection.InsertOne(data);
         }
 
-        public async Task AddAsync(T data)
+        public virtual async Task AddAsync(T data)
         {
             await _collection.InsertOneAsync(data);
         }
 
-        public void AddBulk(List<T> data)
+        public virtual void AddBulk(List<T> data)
         {
             _collection.InsertMany(data);
         }
-
-        public void Delete(Expression<Func<T, bool>> lambda)
+        public virtual void Delete(T data)
         {
-            _collection.DeleteOne(lambda);
+            throw new NotImplementedException();
         }
 
-        public async Task DeleteAsync(Expression<Func<T, bool>> lambda)
+        public virtual void Delete(T data, Expression<Func<T, bool>> lambda)
         {
-            await _collection.DeleteOneAsync(lambda);
+            _collection.DeleteOne<T>(lambda);
         }
 
-        public IList<T> ReadAllData()
+        public Task DeleteAsync(T data)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual async Task DeleteAsync(T data, Expression<Func<T, bool>> lambda)
+        {
+            await _collection.DeleteOneAsync<T>(lambda);
+        }
+
+        public virtual IList<T> ReadAllData()
         {
             return _collection.Find(new BsonDocument()).ToList();
         }
 
-        public IList<T> ReadByFilter(Expression<Func<T, bool>> lambda)
+        public virtual IList<T> ReadByFilter(Expression<Func<T, bool>> lambda)
         {
             return _collection.Find(lambda).ToList();
         }
 
         public void Update(T data)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
+        }
+
+        public void Update(T data, Expression<Func<T, bool>> lambda)
+        {
+            _collection.ReplaceOne<T>(lambda, data);
         }
 
         public Task UpdateAsync(T data)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
+        }
+
+        public async Task UpdateAsync(T data, Expression<Func<T, bool>> lambda)
+        {
+            await _collection.ReplaceOneAsync<T>(lambda, data);
         }
     }
 }

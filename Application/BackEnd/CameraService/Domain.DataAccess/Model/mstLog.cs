@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Dapper.Contrib.Extensions;
+using System;
 
 namespace Domain.DataAccess
 {
+    [Table("mstLog")]
     public class mstLog
     {
+        [Key]
         public int LogID { get; set; }
         public string Level { get; set; }
         public Guid RequestID { get; set; }

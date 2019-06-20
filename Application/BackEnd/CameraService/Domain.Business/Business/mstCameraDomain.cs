@@ -13,63 +13,55 @@ namespace Domain.Business
         }
         public void CreateData(mstCamera data)
         {
-            var dbConn = base.InitConnection();
-            var repo = new mstCameraRepository(dbConn);
+            base.InitConnection(DbEngine.MongoDB);
+            var repo = new mstCameraRepository(_dbConn);
 
             try
             {
-                dbConn.BeginTransaction();
+                _dbConn.BeginTransaction();
 
                 repo.Add(data);
 
-                dbConn.CommitTransaction();
+                _dbConn.CommitTransaction();
             }
             catch (Exception ex)
             {
-                dbConn.RollbackTransaction();
+                _dbConn.RollbackTransaction();
                 throw ex;
-            }
-            finally
-            {
-                dbConn.Dispose();
             }
         }
 
         public void DeleteData(mstCamera data)
         {
-            var dbConn = base.InitConnection();
-            var repo = new mstCameraRepository(dbConn);
+            base.InitConnection(DbEngine.MongoDB);
+            var repo = new mstCameraRepository(_dbConn);
 
             try
             {
-                dbConn.BeginTransaction();
+                _dbConn.BeginTransaction();
 
                 if (!string.IsNullOrEmpty(data.Brand) && !string.IsNullOrEmpty(data.Country))
                 {
-                    repo.Delete(x => x.Brand == data.Brand && x.Country == data.Country);
+                    repo.Delete(data, x => x.Brand == data.Brand && x.Country == data.Country);
                 }
                 else if (!string.IsNullOrEmpty(data.Brand))
                 {
-                    repo.Delete(x => x.Brand == data.Brand);
+                    repo.Delete(data, x => x.Brand == data.Brand);
                 }
 
-                dbConn.CommitTransaction();
+                _dbConn.CommitTransaction();
             }
             catch (Exception ex)
             {
-                dbConn.RollbackTransaction();
+                _dbConn.RollbackTransaction();
                 throw ex;
-            }
-            finally
-            {
-                dbConn.Dispose();
             }
         }
 
         public IList<mstCamera> ReadData(mstCamera param)
         {
-            var dbConn = base.InitConnection();
-            var repo = new mstCameraRepository(dbConn);
+            base.InitConnection(DbEngine.SQLServer);
+            var repo = new mstCameraRepository(_dbConn);
             IList<mstCamera> listData = new List<mstCamera>();
 
             try
@@ -89,15 +81,26 @@ namespace Domain.Business
             {
                 throw ex;
             }
-            finally
-            {
-                dbConn.Dispose();
-            }
         }
 
         public void UpdateData(mstCamera data)
         {
-            throw new System.NotImplementedException();
+            base.InitConnection(DbEngine.MongoDB);
+            var repo = new mstCameraRepository(_dbConn);
+
+            try
+            {
+                _dbConn.BeginTransaction();
+
+                repo.Update(data, x => x.id == data.id);
+
+                _dbConn.CommitTransaction();
+            }
+            catch (Exception ex)
+            {
+                _dbConn.RollbackTransaction();
+                throw ex;
+            }
         }
     }
 }

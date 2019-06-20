@@ -1,6 +1,6 @@
 ﻿namespace Domain.DataAccess
 {
-    public abstract class MongoDBUnitofWork : MongoDBConnection, IUnitofWork
+    public class MongoDBUnitofWork : MongoDBConnection, IUnitofWork
     {
         public void BeginTransaction()
         {

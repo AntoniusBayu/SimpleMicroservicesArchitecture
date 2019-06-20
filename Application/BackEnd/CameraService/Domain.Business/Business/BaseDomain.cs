@@ -6,15 +6,21 @@ namespace Domain.Business
     public abstract class BaseDomain
     {
         protected IConfiguration _config { get; set; }
-        private DbConnection _dbConn { get; set; }
+        protected IUnitofWork _dbConn { get; set; }
 
-        protected DbConnection InitConnection()
+        protected void InitConnection(DbEngine _dbEngine)
         {
-            _dbConn = new DbConnection();
+            DbConnection dbConn = new DbConnection();
 
-            _dbConn.OpenConnection(string.Empty, string.Empty);
-
-            return _dbConn;
+            switch (_dbEngine)
+            {
+                case DbEngine.SQLServer:
+                    _dbConn = dbConn.InitDapper(_config.GetConnectionString("dbConnection"));
+                    break;
+                case DbEngine.MongoDB:
+                    _dbConn = dbConn.InitMongoDB(_config.GetConnectionString("dbConnection"), _config.GetConnectionString("dbConnection"));
+                    break;
+            }
         }
     }
 }
