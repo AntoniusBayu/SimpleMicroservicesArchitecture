@@ -32,21 +32,23 @@
                 <form id="formAnjay" method="POST">
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input type="text" class="form-control" name="minmaxlength" maxlength="10" minlength="5" id="txtSerial" required>
-                            <label class="form-label">Brand</label>
-                        </div>
-                        <div class="help-info">Min. 5, Max. 10 characters</div>
-                    </div>
-                    <div class="form-group form-float">
-                        <div class="form-line">
-                            <input type="text" class="form-control" id="txtDescription" required>
-                            <label class="form-label">Description</label>
+                            <p>
+                                <b>Brand</b>
+                            </p>
+                            <select class="form-control show-tick" data-live-search="true" id="slBrand" required>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input type="text" class="form-control" id="txtPublisher" required>
-                            <label class="form-label">Publisher</label>
+                            <input type="text" class="form-control" id="txtCountry" required>
+                            <label class="form-label">Country</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="number" class="form-control" id="txtRank" required>
+                            <label class="form-label">Rank</label>
                         </div>
                     </div>
                     <button class="btn btn-primary waves-effect" type="submit">Save</button>
@@ -78,14 +80,14 @@
             </div>
             <div class="body">
                 <div class="table-responsive">
-                    <table class="table table-bordered table-striped table-hover dataTable js-exportable" id="tblMstBook">
+                    <table class="table table-bordered table-striped table-hover dataTable js-exportable" id="tblMstCamera">
                         <thead>
                             <tr>
                                 <th>Action</th>
-                                <th>Serial No</th>
-                                <th>Description</th>
-                                <th>Publisher</th>
-                                <th>Created Date</th>
+                                <th>id</th>
+                                <th>Brand</th>
+                                <th>Country</th>
+                                <th>Rank</th>
                             </tr>
                         </thead>
                     </table>
@@ -117,13 +119,23 @@
                 <form id="formUpdate">
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input type="text" class="form-control" id="txtEditSerialNo" required readonly />
+                            <input type="text" class="form-control" id="txtEditID" required readonly />
                         </div>
                         <div class="help-info">Readonly</div>
                     </div>
                     <div class="form-group form-float">
                         <div class="form-line">
-                            <input id="txtEditDescription" type="text" class="form-control" required />
+                            <select class="form-control show-tick" data-live-search="true" id="slEditBrand" required></select>
+                        </div>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input id="txtEditCountry" type="text" class="form-control" required />
+                        </div>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input id="txtEditRank" type="text" class="form-control" required />
                         </div>
                     </div>
                     <button class="btn btn-primary waves-effect" type="submit">Update</button>
@@ -134,6 +146,6 @@
 </div>
 
 @section Scripts {
-    @Scripts.RenderFormat(Helper.GetDefaultJsStringFormat(), "~/Scripts/Home/masterbook.js")
+    @Scripts.RenderFormat(Helper.GetDefaultJsStringFormat(), "~/Scripts/Home/mastercamera.js")
 }
 

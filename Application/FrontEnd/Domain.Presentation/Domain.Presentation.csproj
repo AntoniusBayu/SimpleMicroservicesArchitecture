@@ -219,6 +219,7 @@
   <ItemGroup>
     <Content Include="Content\AdminBSB\css\all-themes.css" />
     <Content Include="Content\AdminBSB\css\bootstrap-datepicker.min.css" />
+    <Content Include="Content\AdminBSB\css\bootstrap-select.min.css" />
     <Content Include="Content\AdminBSB\css\bootstrap.min.css" />
     <Content Include="Content\AdminBSB\css\dataTables.bootstrap.min.css" />
     <Content Include="Content\AdminBSB\css\dropzone.css" />
@@ -278,6 +279,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Common\common.js" />
     <Content Include="Scripts\Dashboard\index.js" />
+    <Content Include="Scripts\Home\mastercamera.js" />
     <Content Include="Scripts\Home\masterbook.js" />
     <Content Include="Scripts\Home\mastercar2.js" />
     <Content Include="Scripts\Home\mastercar.js" />

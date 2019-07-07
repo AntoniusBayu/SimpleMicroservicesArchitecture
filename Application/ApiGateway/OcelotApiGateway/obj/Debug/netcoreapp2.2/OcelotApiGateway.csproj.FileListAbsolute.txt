@@ -3,7 +3,6 @@ C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitect
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Debug\netcoreapp2.2\OcelotApiGateway.runtimeconfig.dev.json
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Debug\netcoreapp2.2\OcelotApiGateway.dll
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\bin\Debug\netcoreapp2.2\OcelotApiGateway.pdb
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Debug\netcoreapp2.2\OcelotApiGateway.csprojAssemblyReference.cache
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Debug\netcoreapp2.2\OcelotApiGateway.csproj.CoreCompileInputs.cache
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Debug\netcoreapp2.2\OcelotApiGateway.RazorAssemblyInfo.cache
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\ApiGateway\OcelotApiGateway\obj\Debug\netcoreapp2.2\OcelotApiGateway.RazorAssemblyInfo.cs

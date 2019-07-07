@@ -56,6 +56,7 @@ namespace Domain.Presentation
                         .Include("~/Content/AdminBSB/css/materialize.css", new CssRewriteUrlTransform())
                         .Include("~/Content/AdminBSB/css/bootstrap-datepicker.min.css", new CssRewriteUrlTransform())
                         .Include("~/Content/AdminBSB/css/dropzone.css", new CssRewriteUrlTransform())
+                        .Include("~/Content/AdminBSB/css/bootstrap-select.min.css", new CssRewriteUrlTransform())
                         .Include("~/Content/AdminBSB/css/sweetalert.css", new CssRewriteUrlTransform()));
         }
     }
