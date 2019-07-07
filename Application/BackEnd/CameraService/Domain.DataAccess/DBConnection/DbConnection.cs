@@ -1,6 +1,6 @@
 ﻿namespace Domain.DataAccess
 {
-    public partial class DbConnection 
+    public partial class DbConnection
     {
         public DapperUnitofWork InitDapper(string connString)
         {
@@ -19,7 +19,8 @@
         }
     }
 
-    public enum DbEngine {
+    public enum DbEngine
+    {
         SQLServer = 1,
         MongoDB = 2
     }

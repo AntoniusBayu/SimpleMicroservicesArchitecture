@@ -57,7 +57,7 @@ namespace Domain.Business
             try
             {
                 _dbConn.BeginTransaction();
-                
+
                 repo.Add(_mstLog);
 
                 _dbConn.CommitTransaction();

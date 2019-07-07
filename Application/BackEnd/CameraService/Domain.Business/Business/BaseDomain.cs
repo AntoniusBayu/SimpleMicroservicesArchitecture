@@ -18,7 +18,10 @@ namespace Domain.Business
                     _dbConn = dbConn.InitDapper(_config.GetConnectionString("dbConnection"));
                     break;
                 case DbEngine.MongoDB:
-                    _dbConn = dbConn.InitMongoDB(_config.GetConnectionString("dbConnection"), _config.GetConnectionString("dbConnection"));
+                    var settingsSection = _config.GetSection("AppSettings");
+                    var settings = settingsSection.Get<AppSettings>();
+
+                    _dbConn = dbConn.InitMongoDB(settings.MongoDBConnectionString, settings.TableName);
                     break;
             }
         }

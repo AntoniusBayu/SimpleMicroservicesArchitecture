@@ -6,7 +6,8 @@ namespace Domain.DataAccess
     public class mstCamera
     {
         [BsonId]
-        public ObjectId id { get; set; }
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string id { get; set; }
         [BsonElement("Brand")]
         public string Brand { get; set; }
         [BsonElement("Country")]

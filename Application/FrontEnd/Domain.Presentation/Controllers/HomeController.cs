@@ -41,5 +41,10 @@ namespace Domain.Presentation.Controllers
         {
             return View();
         }
+
+        public ActionResult MasterCamera()
+        {
+            return View();
+        }
     }
 }

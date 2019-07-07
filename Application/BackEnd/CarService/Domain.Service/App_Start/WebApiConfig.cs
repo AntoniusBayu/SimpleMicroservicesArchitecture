@@ -10,7 +10,7 @@ namespace Domain.Service
     {
         public static void Register(HttpConfiguration config)
         {
-            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            EnableCorsAttribute cors = new EnableCorsAttribute("http://localhost:44316", "*", "*");
 
             config.EnableCors(cors);
             config.MapHttpAttributeRoutes();

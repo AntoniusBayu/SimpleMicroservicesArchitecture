@@ -328,6 +328,7 @@
     <Content Include="Scripts\Vue\vuejs-datepicker.min.js" />
     <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Home\MasterBook.cshtml" />
+    <Content Include="Views\Home\MasterCamera.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Configuration\" />

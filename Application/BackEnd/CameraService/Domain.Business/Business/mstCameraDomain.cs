@@ -60,7 +60,7 @@ namespace Domain.Business
 
         public IList<mstCamera> ReadData(mstCamera param)
         {
-            base.InitConnection(DbEngine.SQLServer);
+            base.InitConnection(DbEngine.MongoDB);
             var repo = new mstCameraRepository(_dbConn);
             IList<mstCamera> listData = new List<mstCamera>();
 
@@ -72,7 +72,7 @@ namespace Domain.Business
                 }
                 else if (!string.IsNullOrEmpty(param.Brand))
                 {
-                    listData = repo.ReadByFilter(x => x.Brand == param.Brand);
+                    listData = repo.ReadByFilter(x => x.Brand.Contains(param.Brand));
                 }
 
                 return listData;

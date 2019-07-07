@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Domain.Service
 {
@@ -22,10 +23,20 @@ namespace Domain.Service
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSingleton<IMstBookDomain, mstBookDomain>();
             services.AddSingleton<IMstLogDomain, mstLogDomain>();
-            services.AddMvc (x=> x.Filters.Add<BookFilter>());
+            services.AddMvc(x => x.Filters.Add<BookFilter>());
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Test API",
+                    Description = "ASP.NET Core Web API"
+                });
+                c.OperationFilter<AddRequiredHeaderParameter>();
+            });
             services.AddCors(p => p.AddPolicy("CustomPolicy", x =>
             {
-                x.AllowAnyOrigin()
+                x.WithOrigins("http://localhost:44316")
                  .AllowAnyMethod()
                  .AllowAnyHeader();
             }));
@@ -48,6 +59,11 @@ namespace Domain.Service
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test API V1");
+            });
         }
     }
 }
