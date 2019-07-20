@@ -21,7 +21,7 @@ namespace Domain.Service.Controllers
         }
 
         [HttpPost, Route("postCamera")]
-        public IActionResult postBook(mstCamera data)
+        public IActionResult postCamera(mstCamera data)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace Domain.Service.Controllers
         }
 
         [HttpGet, Route("getCamera")]
-        public IActionResult getBook(string strBrand)
+        public IActionResult getCamera(string strBrand)
         {
             mstCamera param = new mstCamera();
             List<mstCamera> listResult = new List<mstCamera>();
@@ -57,7 +57,7 @@ namespace Domain.Service.Controllers
         }
 
         [HttpPut, Route("putCamera")]
-        public IActionResult putBook(mstCamera data)
+        public IActionResult putCamera(mstCamera data)
         {
             try
             {
@@ -73,7 +73,7 @@ namespace Domain.Service.Controllers
         }
 
         [HttpDelete, Route("deleteCamera/{strBrand}")]
-        public IActionResult deleteBook(string strBrand)
+        public IActionResult deleteCamera(string strBrand)
         {
             try
             {

@@ -20,8 +20,6 @@ var Form = {
             $("#tblMstCamera").DataTable().columns.adjust().draw();
         });
 
-        Action.Read();
-
         $("#tblMstCamera tbody").on("click", "button.btDelete", function (e) {
             var table = $("#tblMstCamera").DataTable();
             var data = table.row($(this).parents("tr")).data();
@@ -137,7 +135,7 @@ var Action = {
                 "emptyTable": "No data available in table"
             },
             "ajax": {
-                "url": webApi.url + "api/camera/getCamera?strBrand=n",
+                "url": webApi.url + "api/camera/getCamera?strBrand=A",
                 "dataSrc": "dataObject"
             },
             "filter": false,
@@ -225,6 +223,8 @@ var Action = {
             type: "GET"
         })
         .done(function (data, textStatus, jqXHR) {
+            Action.Read();
+
             $("#slBrand").html("<option></option>")
             $("#slEditBrand").html("<option></option>")
 
@@ -233,6 +233,9 @@ var Action = {
                     $("#slBrand").append("<option value='" + item.brandID + "'>" + item.brandName + "</option>");
                     $("#slEditBrand").append("<option value='" + item.brandID + "'>" + item.brandName + "</option>");
                 })
+
+                $('#slBrand').selectpicker('refresh');
+                $('#slEditBrand').selectpicker('refresh');
             }
         })
         .fail(function (jqXHR, textStatus, errorThrown) {

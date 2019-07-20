@@ -13122,7 +13122,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Bayu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -13134,7 +13134,7 @@
       "outputPath": "C:\\Users\\Bayu\\Documents\\Visual Studio 2015\\Projects\\SimpleMicroservicesArchitecture\\Application\\BackEnd\\BookService\\Domain.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Bayu\\AppData\\Roaming\\NuGet\\NuGet.Config",

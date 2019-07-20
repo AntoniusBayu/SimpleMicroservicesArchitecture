@@ -229,6 +229,5 @@ C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitect
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\FrontEnd\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\FrontEnd\Domain.Presentation\bin\ru-ru\JavaScriptEngineSwitcher.Vroom.resources.dll
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\FrontEnd\Domain.Presentation\bin\ru-ru\MsieJavaScriptEngine.resources.dll
-C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\FrontEnd\Domain.Presentation\obj\Debug\Domain.Presentation.csprojResolveAssemblyReference.cache
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\FrontEnd\Domain.Presentation\obj\Debug\Domain.Presentation.dll
 C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\FrontEnd\Domain.Presentation\obj\Debug\Domain.Presentation.pdb

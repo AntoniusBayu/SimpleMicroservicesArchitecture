@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:35:02</publishTime>
     </File>
     <File Include="bin/Domain.Presentation.dll">
-      <publishTime>06/18/2019 20:13:29</publishTime>
+      <publishTime>07/20/2019 13:50:31</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>05/26/2019 16:35:02</publishTime>
@@ -140,6 +140,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/AdminBSB/css/bootstrap-datepicker.min.css">
       <publishTime>05/26/2019 16:35:00</publishTime>
+    </File>
+    <File Include="Content/AdminBSB/css/bootstrap-select.min.css">
+      <publishTime>07/07/2019 20:05:35</publishTime>
     </File>
     <File Include="Content/AdminBSB/css/bootstrap.min.css">
       <publishTime>05/26/2019 16:35:00</publishTime>
@@ -339,6 +342,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/Home/masterbook.js">
       <publishTime>05/26/2019 19:26:05</publishTime>
     </File>
+    <File Include="Scripts/Home/mastercamera.js">
+      <publishTime>07/20/2019 13:48:40</publishTime>
+    </File>
     <File Include="Scripts/Home/mastercar.js">
       <publishTime>06/18/2019 20:09:06</publishTime>
     </File>
@@ -391,7 +397,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:35:00</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>05/26/2019 16:35:00</publishTime>
+      <publishTime>07/07/2019 19:06:00</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
       <publishTime>05/26/2019 16:35:00</publishTime>
@@ -421,7 +427,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:35:00</publishTime>
     </File>
     <File Include="Views/Dashboard/Index.cshtml">
-      <publishTime>05/26/2019 16:35:00</publishTime>
+      <publishTime>07/07/2019 13:27:34</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>05/26/2019 16:35:00</publishTime>
@@ -433,10 +439,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:35:00</publishTime>
     </File>
     <File Include="Views/Home/MasterBook.cshtml">
-      <publishTime>05/26/2019 16:34:58</publishTime>
+      <publishTime>07/07/2019 13:46:52</publishTime>
+    </File>
+    <File Include="Views/Home/MasterCamera.cshtml">
+      <publishTime>07/20/2019 13:49:48</publishTime>
     </File>
     <File Include="Views/Home/MasterCar.cshtml">
-      <publishTime>05/26/2019 16:35:00</publishTime>
+      <publishTime>07/07/2019 13:46:56</publishTime>
     </File>
     <File Include="Views/Home/MasterCar2.cshtml">
       <publishTime>05/26/2019 16:35:00</publishTime>
@@ -445,7 +454,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:35:00</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>05/26/2019 16:34:58</publishTime>
+      <publishTime>07/07/2019 13:19:13</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>05/26/2019 16:35:00</publishTime>
