@@ -32,6 +32,10 @@ namespace Domain.Business
                 uow.RollbackTransaction();
                 throw;
             }
+            finally
+            {
+                uow.Dispose();
+            }
         }
 
         public void DeleteData(string bookID)
@@ -54,6 +58,10 @@ namespace Domain.Business
             {
                 uow.RollbackTransaction();
                 throw;
+            }
+            finally
+            {
+                uow.Dispose();
             }
         }
 
@@ -90,6 +98,7 @@ namespace Domain.Business
             try
             {
                 uow.OpenSQLConnection(dbConn);
+                uow.BeginTransaction();
 
                 var repo = new mstBookRepository(uow);
                 currData = repo.ReadByFilter(x => x.SerialNo == data.SerialNo).FirstOrDefault();
@@ -104,8 +113,6 @@ namespace Domain.Business
                     currData.Publisher = data.Publisher;
                 }
 
-                uow.BeginTransaction();
-
                 repo.Update(currData);
 
                 uow.CommitTransaction();
@@ -114,6 +121,10 @@ namespace Domain.Business
             {
                 uow.RollbackTransaction();
                 throw;
+            }
+            finally
+            {
+                uow.Dispose();
             }
         }
     }

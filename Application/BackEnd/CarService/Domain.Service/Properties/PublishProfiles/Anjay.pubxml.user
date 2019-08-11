@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Data/XmlDocument.xml">
-      <publishTime>07/07/2019 13:08:37</publishTime>
+      <publishTime>08/11/2019 13:01:46</publishTime>
     </File>
     <File Include="App_Readme/readme.txt">
       <publishTime>05/26/2019 16:34:50</publishTime>
@@ -79,16 +79,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/26/2019 16:34:51</publishTime>
     </File>
     <File Include="bin/Domain.Business.dll">
-      <publishTime>07/07/2019 13:08:47</publishTime>
+      <publishTime>08/11/2019 13:02:04</publishTime>
     </File>
     <File Include="bin/Domain.DataAccess.dll">
-      <publishTime>07/07/2019 13:08:47</publishTime>
+      <publishTime>08/11/2019 13:02:04</publishTime>
     </File>
     <File Include="bin/Domain.Logging.dll">
-      <publishTime>07/07/2019 13:08:48</publishTime>
+      <publishTime>08/11/2019 13:02:05</publishTime>
     </File>
     <File Include="bin/Domain.Service.dll">
-      <publishTime>07/07/2019 13:08:48</publishTime>
+      <publishTime>08/11/2019 13:02:05</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>05/26/2019 16:34:51</publishTime>

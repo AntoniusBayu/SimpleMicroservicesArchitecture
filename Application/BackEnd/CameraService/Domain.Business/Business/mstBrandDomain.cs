@@ -9,7 +9,7 @@ namespace Domain.Business
     {
         public mstBrandDomain(IConfiguration config)
         {
-            base._config = config;
+            _config = config;
         }
         public void CreateData(mstBrand data)
         {
@@ -29,6 +29,10 @@ namespace Domain.Business
                 _dbConn.RollbackTransaction();
                 throw ex;
             }
+            finally
+            {
+                _dbConn.Dispose();
+            }
         }
 
         public IList<mstBrand> ReadData()
@@ -46,6 +50,10 @@ namespace Domain.Business
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                _dbConn.Dispose();
             }
         }
     }

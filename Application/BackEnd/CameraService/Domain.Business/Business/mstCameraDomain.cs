@@ -29,6 +29,10 @@ namespace Domain.Business
                 _dbConn.RollbackTransaction();
                 throw ex;
             }
+            finally
+            {
+                _dbConn.Dispose();
+            }
         }
 
         public void DeleteData(mstCamera data)
@@ -56,6 +60,10 @@ namespace Domain.Business
                 _dbConn.RollbackTransaction();
                 throw ex;
             }
+            finally
+            {
+                _dbConn.Dispose();
+            }
         }
 
         public IList<mstCamera> ReadData(mstCamera param)
@@ -81,6 +89,10 @@ namespace Domain.Business
             {
                 throw ex;
             }
+            finally
+            {
+                _dbConn.Dispose();
+            }
         }
 
         public void UpdateData(mstCamera data)
@@ -100,6 +112,10 @@ namespace Domain.Business
             {
                 _dbConn.RollbackTransaction();
                 throw ex;
+            }
+            finally
+            {
+                _dbConn.Dispose();
             }
         }
     }

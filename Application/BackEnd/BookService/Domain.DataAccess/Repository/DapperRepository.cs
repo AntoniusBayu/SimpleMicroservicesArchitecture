@@ -51,12 +51,12 @@ namespace Domain.DataAccess
 
         public virtual IQueryable<T> ReadAllData()
         {
-            return this._uow._Connection.GetAll<T>().AsQueryable();
+            return this._uow._Connection.GetAll<T>(_uow._Transaction).AsQueryable();
         }
 
         public virtual IQueryable<T> ReadByFilter(System.Linq.Expressions.Expression<Func<T, bool>> lambda)
         {
-            return this._uow._Connection.GetAll<T>().AsQueryable().Where(lambda);
+            return this._uow._Connection.GetAll<T>(_uow._Transaction).AsQueryable().Where(lambda);
         }
     }
 }

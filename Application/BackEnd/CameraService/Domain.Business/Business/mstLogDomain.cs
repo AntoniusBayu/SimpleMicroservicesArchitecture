@@ -66,6 +66,10 @@ namespace Domain.Business
             {
                 _dbConn.RollbackTransaction();
             }
+            finally
+            {
+                _dbConn.Dispose();
+            }
         }
 
         public void Setup(mstLog data)

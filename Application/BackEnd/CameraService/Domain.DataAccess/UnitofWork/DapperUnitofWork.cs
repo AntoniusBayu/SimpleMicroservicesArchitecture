@@ -4,19 +4,17 @@
     {
         public virtual void BeginTransaction()
         {
-            _Transaction = _Connection.BeginTransaction();
+            base._Transaction = _Connection.BeginTransaction();
         }
 
         public virtual void RollbackTransaction()
         {
-            _Transaction.Rollback();
-            base.Dispose();
+            base._Transaction.Rollback();
         }
 
         public virtual void CommitTransaction()
         {
-            _Transaction.Commit();
-            base.Dispose();
+            base._Transaction.Commit();
         }
     }
 }

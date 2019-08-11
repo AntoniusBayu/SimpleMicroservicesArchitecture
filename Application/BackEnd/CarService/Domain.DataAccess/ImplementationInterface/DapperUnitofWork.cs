@@ -44,11 +44,17 @@ namespace Domain.DataAccess
 
         public void Dispose()
         {
+            if (this.Transaction != null)
+            {
+                this.Transaction.Dispose();
+                this.Transaction = null;
+            }
+
             if (this.Connection != null)
             {
-                Connection.Dispose();
-                Connection.Close();
-                Connection = null;
+                this.Connection.Dispose();
+                this.Connection.Close();
+                this.Connection = null;
             }
         }
     }

@@ -4,17 +4,17 @@
     {
         public void BeginTransaction()
         {
-            _session.StartTransaction();
+            base._session.StartTransaction();
         }
 
         public void CommitTransaction()
         {
-            _session.CommitTransaction();
+            base._session.CommitTransaction();
         }
 
         public void RollbackTransaction()
         {
-            _session.AbortTransaction();
+            base._session.AbortTransaction();
         }
     }
 }

@@ -66,7 +66,7 @@ namespace Domain.DataAccess
         /// <returns></returns>
         public virtual IQueryable<T> ReadAllData()
         {
-            return this._uow.Connection.GetAll<T>().AsQueryable();
+            return this._uow.Connection.GetAll<T>(_uow.Transaction).AsQueryable();
         }
 
         /// <summary>
@@ -78,7 +78,7 @@ namespace Domain.DataAccess
         /// <returns></returns>
         public virtual IQueryable<T> ReadByFilter(System.Linq.Expressions.Expression<Func<T, bool>> lambda)
         {
-            return this._uow.Connection.GetAll<T>().AsQueryable().Where(lambda);
+            return this._uow.Connection.GetAll<T>(_uow.Transaction).AsQueryable().Where(lambda);
         }
     }
 }

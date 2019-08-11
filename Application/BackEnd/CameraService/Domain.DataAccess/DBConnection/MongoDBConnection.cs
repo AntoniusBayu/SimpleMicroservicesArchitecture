@@ -10,14 +10,14 @@ namespace Domain.DataAccess
 
         public void Dispose()
         {
-            _session.Dispose();
+            this._session.Dispose();
         }
 
         public void OpenConnection(string connString, string dbName = "")
         {
-            _client = new MongoClient(connString);
-            _database = _client.GetDatabase(dbName);
-            _session = _client.StartSession();
+            this._client = new MongoClient(connString);
+            this._database = _client.GetDatabase(dbName);
+            this._session = _client.StartSession();
         }
     }
 }

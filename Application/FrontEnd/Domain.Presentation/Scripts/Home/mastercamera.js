@@ -8,6 +8,7 @@ jQuery(document).ready(function () {
 var Form = {
     Init: function () {
         Action.GetBrand();
+        Action.Read();
         //--------------------------------- READ ---------------------------------
 
         $('#tblMstCamera').dataTable({
@@ -223,8 +224,7 @@ var Action = {
             type: "GET"
         })
         .done(function (data, textStatus, jqXHR) {
-            Action.Read();
-
+           
             $("#slBrand").html("<option></option>")
             $("#slEditBrand").html("<option></option>")
 

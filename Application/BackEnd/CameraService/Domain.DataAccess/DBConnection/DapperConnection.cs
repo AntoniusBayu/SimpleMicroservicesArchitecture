@@ -9,18 +9,24 @@ namespace Domain.DataAccess
         public IDbTransaction _Transaction { get; set; }
         public void Dispose()
         {
+            if (this._Transaction != null)
+            {
+                this._Transaction.Dispose();
+                this._Transaction = null;
+            }
+
             if (this._Connection != null)
             {
-                _Connection.Dispose();
-                _Connection.Close();
-                _Connection = null;
+                this._Connection.Dispose();
+                this._Connection.Close();
+                this._Connection = null;
             }
         }
 
         public void OpenConnection(string connString, string dbName = "")
         {
-            _Connection = new SqlConnection(connString);
-            _Connection.Open();
+            this._Connection = new SqlConnection(connString);
+            this._Connection.Open();
         }
     }
 }
