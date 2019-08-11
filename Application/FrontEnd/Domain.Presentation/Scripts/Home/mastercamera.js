@@ -8,7 +8,6 @@ jQuery(document).ready(function () {
 var Form = {
     Init: function () {
         Action.GetBrand();
-        Action.Read();
         //--------------------------------- READ ---------------------------------
 
         $('#tblMstCamera').dataTable({
@@ -20,6 +19,8 @@ var Form = {
         $(window).resize(function () {
             $("#tblMstCamera").DataTable().columns.adjust().draw();
         });
+		
+        Action.Read();
 
         $("#tblMstCamera tbody").on("click", "button.btDelete", function (e) {
             var table = $("#tblMstCamera").DataTable();
