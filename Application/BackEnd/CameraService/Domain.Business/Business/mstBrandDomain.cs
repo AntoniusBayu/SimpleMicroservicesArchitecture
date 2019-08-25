@@ -13,7 +13,7 @@ namespace Domain.Business
         }
         public void CreateData(mstBrand data)
         {
-            base.InitConnection(DbEngine.MongoDB);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.MongoDB, _config);
             var repo = new mstBrandRepository(_dbConn);
 
             try
@@ -37,7 +37,7 @@ namespace Domain.Business
 
         public IList<mstBrand> ReadData()
         {
-            base.InitConnection(DbEngine.MongoDB);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.MongoDB, _config);
             var repo = new mstBrandRepository(_dbConn);
             IList<mstBrand> listData = new List<mstBrand>();
 

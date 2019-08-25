@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace Domain.DataAccess
@@ -7,23 +8,32 @@ namespace Domain.DataAccess
     {
         public IDbConnection _Connection { get; set; }
         public IDbTransaction _Transaction { get; set; }
-        public void Dispose()
+        public virtual void Dispose()
         {
-            if (this._Transaction != null)
-            {
-                this._Transaction.Dispose();
-                this._Transaction = null;
-            }
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
 
-            if (this._Connection != null)
+        private void Dispose(bool disposed)
+        {
+            if (disposed)
             {
-                this._Connection.Dispose();
-                this._Connection.Close();
-                this._Connection = null;
+                if (this._Transaction != null)
+                {
+                    this._Transaction.Dispose();
+                    this._Transaction = null;
+                }
+
+                if (this._Connection != null)
+                {
+                    this._Connection.Dispose();
+                    this._Connection.Close();
+                    this._Connection = null;
+                }
             }
         }
 
-        public void OpenConnection(string connString, string dbName = "")
+        public virtual void OpenConnection(string connString, string dbName = "")
         {
             this._Connection = new SqlConnection(connString);
             this._Connection.Open();

@@ -67,7 +67,7 @@ namespace Domain.DataAccess
             throw new NotImplementedException();
         }
 
-        public void Update(T data, Expression<Func<T, bool>> lambda)
+        public virtual void Update(T data, Expression<Func<T, bool>> lambda)
         {
             _collection.ReplaceOne<T>(lambda, data);
         }

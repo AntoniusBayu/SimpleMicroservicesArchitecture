@@ -13,7 +13,7 @@ namespace Domain.Business
         }
         public void CreateData(mstCamera data)
         {
-            base.InitConnection(DbEngine.MongoDB);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.MongoDB, _config);
             var repo = new mstCameraRepository(_dbConn);
 
             try
@@ -37,7 +37,7 @@ namespace Domain.Business
 
         public void DeleteData(mstCamera data)
         {
-            base.InitConnection(DbEngine.MongoDB);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.MongoDB, _config);
             var repo = new mstCameraRepository(_dbConn);
 
             try
@@ -68,7 +68,7 @@ namespace Domain.Business
 
         public IList<mstCamera> ReadData(mstCamera param)
         {
-            base.InitConnection(DbEngine.MongoDB);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.MongoDB, _config);
             var repo = new mstCameraRepository(_dbConn);
             IList<mstCamera> listData = new List<mstCamera>();
 
@@ -97,7 +97,7 @@ namespace Domain.Business
 
         public void UpdateData(mstCamera data)
         {
-            base.InitConnection(DbEngine.MongoDB);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.MongoDB, _config);
             var repo = new mstCameraRepository(_dbConn);
 
             try

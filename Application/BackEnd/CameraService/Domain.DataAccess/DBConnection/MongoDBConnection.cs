@@ -8,12 +8,12 @@ namespace Domain.DataAccess
         public IMongoDatabase _database;
         public IClientSession _session;
 
-        public void Dispose()
+        public virtual void Dispose()
         {
             this._session.Dispose();
         }
 
-        public void OpenConnection(string connString, string dbName = "")
+        public virtual void OpenConnection(string connString, string dbName = "")
         {
             this._client = new MongoClient(connString);
             this._database = _client.GetDatabase(dbName);

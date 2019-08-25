@@ -1,6 +1,8 @@
-﻿namespace Domain.DataAccess
+﻿using System;
+
+namespace Domain.DataAccess
 {
-    public interface IUnitofWork : IConnection
+    public interface IUnitofWork : IDisposable
     {
         void BeginTransaction();
         void RollbackTransaction();

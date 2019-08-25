@@ -51,7 +51,7 @@ namespace Domain.Business
 
         public void Save()
         {
-            base.InitConnection(DbEngine.SQLServer);
+            var _dbConn = CommonFunction.InitConnection(DbEngine.SQLServer, _config);
             var repo = new mstLogRepository(_dbConn);
 
             try

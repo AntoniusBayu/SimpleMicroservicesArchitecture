@@ -6,7 +6,6 @@
         {
             DapperUnitofWork uow = new DapperUnitofWork();
             uow.OpenConnection(connString);
-
             return uow;
         }
 
