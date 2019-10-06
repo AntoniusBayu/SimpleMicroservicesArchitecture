@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bayu\\Documents\\Visual Studio 2015\\Projects\\SimpleMicroservicesArchitecture\\Application\\BackEnd\\TransactionCar\\Domain.DataAccess\\Domain.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bayu\\Documents\\Visual Studio 2015\\Projects\\SimpleMicroservicesArchitecture\\Application\\BackEnd\\TransactionCar\\Domain.DataAccess\\Domain.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bayu\\Documents\\Visual Studio 2015\\Projects\\SimpleMicroservicesArchitecture\\Application\\BackEnd\\TransactionCar\\Domain.DataAccess\\Domain.DataAccess.csproj",
+        "projectName": "Domain.DataAccess",
+        "projectPath": "C:\\Users\\Bayu\\Documents\\Visual Studio 2015\\Projects\\SimpleMicroservicesArchitecture\\Application\\BackEnd\\TransactionCar\\Domain.DataAccess\\Domain.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Bayu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bayu\\Documents\\Visual Studio 2015\\Projects\\SimpleMicroservicesArchitecture\\Application\\BackEnd\\TransactionCar\\Domain.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bayu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
