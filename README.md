@@ -4,7 +4,7 @@ Simple Microservices Architecture Using .Net Framework and .Net Core
 
 ## Screenshot
 
-![](Capture.jpg)
+![](Capture.JPG)
 
 ### Prerequisites
 
