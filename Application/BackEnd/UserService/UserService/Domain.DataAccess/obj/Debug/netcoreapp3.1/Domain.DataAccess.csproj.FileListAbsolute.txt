@@ -1,0 +1,8 @@
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\bin\Debug\netcoreapp3.1\Domain.DataAccess.deps.json
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\bin\Debug\netcoreapp3.1\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\bin\Debug\netcoreapp3.1\Domain.DataAccess.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\obj\Debug\netcoreapp3.1\Domain.DataAccess.csprojAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\obj\Debug\netcoreapp3.1\Domain.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\obj\Debug\netcoreapp3.1\Domain.DataAccess.AssemblyInfo.cs
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\obj\Debug\netcoreapp3.1\Domain.DataAccess.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.DataAccess\obj\Debug\netcoreapp3.1\Domain.DataAccess.pdb

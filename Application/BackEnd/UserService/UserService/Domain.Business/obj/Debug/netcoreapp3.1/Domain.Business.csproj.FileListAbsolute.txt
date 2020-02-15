@@ -1,0 +1,8 @@
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\bin\Debug\netcoreapp3.1\Domain.Business.deps.json
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\bin\Debug\netcoreapp3.1\Domain.Business.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\bin\Debug\netcoreapp3.1\Domain.Business.pdb
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\obj\Debug\netcoreapp3.1\Domain.Business.csprojAssemblyReference.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\obj\Debug\netcoreapp3.1\Domain.Business.AssemblyInfoInputs.cache
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\obj\Debug\netcoreapp3.1\Domain.Business.AssemblyInfo.cs
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\obj\Debug\netcoreapp3.1\Domain.Business.dll
+C:\Users\Bayu\Documents\Visual Studio 2015\Projects\SimpleMicroservicesArchitecture\Application\BackEnd\UserService\UserService\Domain.Business\obj\Debug\netcoreapp3.1\Domain.Business.pdb
