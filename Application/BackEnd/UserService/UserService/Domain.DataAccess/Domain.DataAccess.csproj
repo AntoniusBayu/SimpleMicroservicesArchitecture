@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DBConnection\" />
-    <Folder Include="Interface\" />
-    <Folder Include="Model\" />
-    <Folder Include="UnitofWork\" />
-    <Folder Include="Repository\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
   </ItemGroup>
 
 </Project>
