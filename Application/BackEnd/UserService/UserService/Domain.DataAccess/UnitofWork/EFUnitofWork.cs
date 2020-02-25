@@ -7,8 +7,9 @@ namespace Domain.DataAccess
     public class EFUnitofWork<TContext> : IUnitOfWork<TContext>, IUnitOfWork
         where TContext : DbContext, IDisposable
     {
+
         private Dictionary<Type, object> _repositories;
-        public TContext Context { get; }
+        public TContext Context { get; set; }
 
         public void BeginTransaction()
         {
